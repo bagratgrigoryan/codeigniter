@@ -19,6 +19,13 @@ class ContentController extends LoginController
 		$this->load->view('Auth/footer');
 	}
 
+	public function deletePartner($id)
+	{
+		$this->dashboard();
+		$this->load->model('admin/PartnerModel', 'pm');
+		$this->pm->destroy($id);
+		redirect(base_url('/v1/dashboard/edit'));
+	}
 	public function editPartnersPage($id)
 	{
 		$this->dashboard();

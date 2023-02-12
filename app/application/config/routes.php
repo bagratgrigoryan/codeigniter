@@ -63,4 +63,6 @@ $route['v1/dashboard/addPartner/add'] = "v1/ContentController/CreatePartner";
 $route['v1/dashboard/edit'] = "v1/ContentController/editPartner";
 $route['v1/dashboard/edit/(:any)'] = "v1/ContentController/editPartnersPage/$1";
 $route['v1/dashboard/edit/update/(:any)'] = "v1/ContentController/savePartnerChanges/$1";
+$route['v1/dashboard/delete/(:any)'] = "v1/ContentController/deletePartner/$1";
+$route['v1/copyPayment'] = "v1/CloneController/copyPayment";
 

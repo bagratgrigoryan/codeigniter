@@ -2,8 +2,6 @@
 $data = $this->session->userdata('loggedIn');
 
 ?>
-
-
 <div  class="navbar navbar-expand-lg navbar-light bg-light" style="display: flex; justify-content: space-between">
 	<div>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">

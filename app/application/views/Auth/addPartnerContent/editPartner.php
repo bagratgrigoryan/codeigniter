@@ -23,7 +23,7 @@
 				   type="submit" class="btn btn-warning btn-sm">Edit</a></form>
 			</td>
 			<td>
-				<a href="<?= base_url("v1/dashboard/edit/" . $row->id) ?>"
+				<a href="<?= base_url("v1/dashboard/delete/" . $row->id) ?>"
 				   type="submit" class="btn btn-danger btn-sm">Delete</a></form>
 			</td>
 		</tr>

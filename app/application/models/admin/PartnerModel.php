@@ -33,4 +33,8 @@ class PartnerModel extends CI_Model
 
 		return $this->db->update('partners', $data, ['id' => $id]);
 	}
+	public function destroy($id)
+	{
+		$this->db->delete('partners', array('id' => $id));
+	}
 }
